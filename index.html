@@ -39,7 +39,7 @@ function getRandomInt(min, max) {
 // generate a new tetromino sequence
 // @see https://tetris.fandom.com/wiki/Random_Generator
 function generateSequence() {
-  const sequence = ['I', 'J', 'L', 'O', 'S', 'T', 'Z'];
+  const sequence = ['I']; //, 'J', 'L', 'O', 'S', 'T', 'Z'
 
   while (sequence.length) {
     const rand = getRandomInt(0, sequence.length - 1);
